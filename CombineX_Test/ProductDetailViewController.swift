@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProductDetailViewController.swift
 //  CombineX_Test
 //
 //  Created by anddy on 2019/11/1.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ProductDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-
+    
 }
-

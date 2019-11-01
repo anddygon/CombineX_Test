@@ -8,21 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		ADF9500A236BE4840085AF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF95009236BE4840085AF13 /* AppDelegate.swift */; };
-		ADF9500E236BE4840085AF13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9500D236BE4840085AF13 /* ViewController.swift */; };
+		ADF9500E236BE4840085AF13 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9500D236BE4840085AF13 /* ProductViewController.swift */; };
 		ADF95011236BE4840085AF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF9500F236BE4840085AF13 /* Main.storyboard */; };
 		ADF95013236BE4860085AF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF95012236BE4860085AF13 /* Assets.xcassets */; };
 		ADF95016236BE4860085AF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF95014236BE4860085AF13 /* LaunchScreen.storyboard */; };
 		ADF9523F236BE5EA0085AF13 /* CombineX in Frameworks */ = {isa = PBXBuildFile; productRef = ADF9523E236BE5EA0085AF13 /* CombineX */; };
+		ADF95241236BEB2D0085AF13 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF95240236BEB2D0085AF13 /* Product.swift */; };
+		ADF95244236C08E60085AF13 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ADF95243236C08E60085AF13 /* SnapKit */; };
+		ADF95246236C0C8E0085AF13 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF95245236C0C8E0085AF13 /* HttpRequest.swift */; };
+		ADF95249236C0DD20085AF13 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = ADF95248236C0DD20085AF13 /* Moya */; };
+		ADF9524B236C1B350085AF13 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9524A236C1B350085AF13 /* JSONParsing.swift */; };
+		ADF9524E236C30700085AF13 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9524C236C30700085AF13 /* TableViewCell.swift */; };
+		ADF9524F236C30700085AF13 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF9524D236C30700085AF13 /* TableViewCell.xib */; };
+		ADF95251236C39FA0085AF13 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF95250236C39FA0085AF13 /* ProductDetailViewController.swift */; };
+		ADF95254236C57F90085AF13 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ADF95253236C57F90085AF13 /* Kingfisher */; };
+		ADF95256236C58100085AF13 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF95255236C58100085AF13 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADF95006236BE4840085AF13 /* CombineX_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineX_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF95009236BE4840085AF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADF9500D236BE4840085AF13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADF9500D236BE4840085AF13 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		ADF95010236BE4840085AF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADF95012236BE4860085AF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF95015236BE4860085AF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF95017236BE4860085AF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF95240236BEB2D0085AF13 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ADF95245236C0C8E0085AF13 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		ADF9524A236C1B350085AF13 /* JSONParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
+		ADF9524C236C30700085AF13 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ADF9524D236C30700085AF13 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		ADF95250236C39FA0085AF13 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		ADF95255236C58100085AF13 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF95254236C57F90085AF13 /* Kingfisher in Frameworks */,
 				ADF9523F236BE5EA0085AF13 /* CombineX in Frameworks */,
+				ADF95244236C08E60085AF13 /* SnapKit in Frameworks */,
+				ADF95249236C0DD20085AF13 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +77,14 @@
 			isa = PBXGroup;
 			children = (
 				ADF95009236BE4840085AF13 /* AppDelegate.swift */,
-				ADF9500D236BE4840085AF13 /* ViewController.swift */,
+				ADF9500D236BE4840085AF13 /* ProductViewController.swift */,
+				ADF95250236C39FA0085AF13 /* ProductDetailViewController.swift */,
+				ADF9524C236C30700085AF13 /* TableViewCell.swift */,
+				ADF9524D236C30700085AF13 /* TableViewCell.xib */,
+				ADF95255236C58100085AF13 /* UIImage.swift */,
+				ADF95240236BEB2D0085AF13 /* Product.swift */,
+				ADF95245236C0C8E0085AF13 /* HttpRequest.swift */,
+				ADF9524A236C1B350085AF13 /* JSONParsing.swift */,
 				ADF9500F236BE4840085AF13 /* Main.storyboard */,
 				ADF95012236BE4860085AF13 /* Assets.xcassets */,
 				ADF95014236BE4860085AF13 /* LaunchScreen.storyboard */,
@@ -84,6 +111,9 @@
 			name = CombineX_Test;
 			packageProductDependencies = (
 				ADF9523E236BE5EA0085AF13 /* CombineX */,
+				ADF95243236C08E60085AF13 /* SnapKit */,
+				ADF95248236C0DD20085AF13 /* Moya */,
+				ADF95253236C57F90085AF13 /* Kingfisher */,
 			);
 			productName = CombineX_Test;
 			productReference = ADF95006236BE4840085AF13 /* CombineX_Test.app */;
@@ -115,6 +145,9 @@
 			mainGroup = ADF94FFD236BE4840085AF13;
 			packageReferences = (
 				ADF9523D236BE5EA0085AF13 /* XCRemoteSwiftPackageReference "CombineX" */,
+				ADF95242236C08E60085AF13 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				ADF95247236C0DD20085AF13 /* XCRemoteSwiftPackageReference "Moya" */,
+				ADF95252236C57F90085AF13 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = ADF95007236BE4840085AF13 /* Products */;
 			projectDirPath = "";
@@ -131,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF95016236BE4860085AF13 /* LaunchScreen.storyboard in Resources */,
+				ADF9524F236C30700085AF13 /* TableViewCell.xib in Resources */,
 				ADF95013236BE4860085AF13 /* Assets.xcassets in Resources */,
 				ADF95011236BE4840085AF13 /* Main.storyboard in Resources */,
 			);
@@ -143,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF9500E236BE4840085AF13 /* ViewController.swift in Sources */,
+				ADF9500E236BE4840085AF13 /* ProductViewController.swift in Sources */,
+				ADF95256236C58100085AF13 /* UIImage.swift in Sources */,
+				ADF9524B236C1B350085AF13 /* JSONParsing.swift in Sources */,
+				ADF95251236C39FA0085AF13 /* ProductDetailViewController.swift in Sources */,
+				ADF95246236C0C8E0085AF13 /* HttpRequest.swift in Sources */,
+				ADF9524E236C30700085AF13 /* TableViewCell.swift in Sources */,
 				ADF9500A236BE4840085AF13 /* AppDelegate.swift in Sources */,
+				ADF95241236BEB2D0085AF13 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +390,32 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/cx-org/CombineX.git";
 			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		ADF95242236C08E60085AF13 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = "0.0.1-beta.3";
+				minimumVersion = 5.0.1;
+			};
+		};
+		ADF95247236C0DD20085AF13 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.1;
+			};
+		};
+		ADF95252236C57F90085AF13 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -361,6 +425,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ADF9523D236BE5EA0085AF13 /* XCRemoteSwiftPackageReference "CombineX" */;
 			productName = CombineX;
+		};
+		ADF95243236C08E60085AF13 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADF95242236C08E60085AF13 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		ADF95248236C0DD20085AF13 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADF95247236C0DD20085AF13 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		ADF95253236C57F90085AF13 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADF95252236C57F90085AF13 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
